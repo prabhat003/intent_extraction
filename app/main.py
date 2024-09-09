@@ -97,7 +97,7 @@ class GetConfig():
             utils = Utils()
             logger.info('Initializing variables from .env files')
             # print(str(utils.get_project_dir().parent)+'/.env')
-            load_dotenv(dotenv_path=str(utils.get_project_dir().parent)+'/app/.env', override=True)
+            load_dotenv(dotenv_path=str(utils.get_project_dir().parent)+'/.env', override=True)
 
             self.COHERE_API_KEY = os.getenv('COHERE_API_KEY')
             self.ACCESS_TOKEN_EXPIRE_IN_HOURS = os.getenv('ACCESS_TOKEN_EXPIRE_IN_HOURS')

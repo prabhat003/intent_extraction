@@ -423,3 +423,12 @@ ValueError: malformed node or string: <_ast.Name object at 0x7f998f53e6a0>
 2024-09-09 13:31:57,936 - api_logger - ERROR - There was an error st.session_state has no attribute "prompt". Did you forget to initialize it? More info: https://docs.streamlit.io/develop/concepts/architecture/session-state#initialization
 2024-09-09 13:32:00,386 - api_logger - INFO - Initializing variables from .env files
 2024-09-09 13:32:01,849 - api_logger - INFO - Result generated...
+2024-09-09 13:37:20,212 - api_logger - ERROR - There was an error st.session_state has no attribute "prompt". Did you forget to initialize it? More info: https://docs.streamlit.io/develop/concepts/architecture/session-state#initialization
+2024-09-09 13:37:22,570 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 13:37:22,572 - api_logger - INFO - Error occured in ambiguity check => status_code: None, body: The client must be instantiated be either passing in token or setting CO_API_KEY
+2024-09-09 13:37:22,577 - api_logger - ERROR - There was an error st.session_state has no attribute "response". Did you forget to initialize it? More info: https://docs.streamlit.io/develop/concepts/architecture/session-state#initialization
+2024-09-09 13:38:00,061 - api_logger - ERROR - There was an error st.session_state has no attribute "prompt". Did you forget to initialize it? More info: https://docs.streamlit.io/develop/concepts/architecture/session-state#initialization
+2024-09-09 13:38:02,412 - api_logger - ERROR - There was an error st.session_state has no attribute "prompt". Did you forget to initialize it? More info: https://docs.streamlit.io/develop/concepts/architecture/session-state#initialization
+2024-09-09 13:38:04,278 - api_logger - ERROR - There was an error st.session_state has no attribute "prompt". Did you forget to initialize it? More info: https://docs.streamlit.io/develop/concepts/architecture/session-state#initialization
+2024-09-09 13:38:07,842 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 13:38:09,778 - api_logger - INFO - Result generated...
