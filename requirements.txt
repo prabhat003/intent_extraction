@@ -123,3 +123,4 @@ fastapi-cli==0.0.4
 passlib==1.7.4
 bcrypt==4.2.0
 gunicorn==23.0.0
+setuptools==74.1.2
