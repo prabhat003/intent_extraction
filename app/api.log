@@ -1,0 +1,425 @@
+2024-09-09 01:27:18,609 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 01:27:20,072 - api_logger - INFO - Result generated...
+2024-09-09 01:27:20,073 - api_logger - INFO - Endpoint: /extract, Body: {'query': 'How many drops of ofloxacin are needed for otitis externa?'}, Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwcmFiaGF0In0.x6Q_lg7sFtv4aZwzOiW3THlwhIfT7yzeR_ODO67Uj5Q', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.28.2', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': 'daebc3a7-fe45-416e-a868-dae281b9f205', 'host': '0.0.0.0:5001', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '77'}, Status: 200, Response Time: 1.7755 seconds
+2024-09-09 01:28:28,765 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 01:28:30,241 - api_logger - INFO - Result generated...
+2024-09-09 01:28:30,241 - api_logger - INFO - Endpoint: /extract, Body: {'query': 'How many drops of ofloxacin are needed for otitis externa?'}, Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwcmFiaGF0In0.x6Q_lg7sFtv4aZwzOiW3THlwhIfT7yzeR_ODO67Uj5Q', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.28.2', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': '0c2295e1-7039-4b57-9ced-ef907b46f780', 'host': '0.0.0.0:5001', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '77'}, Status: 200, Response Time: 1.7424 seconds
+2024-09-09 10:04:13,047 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 10:04:14,834 - api_logger - INFO - Result generated...
+2024-09-09 10:04:14,835 - api_logger - INFO - Endpoint: /extract, Body: {'query': 'How many drops of ofloxacin are needed for otitis externa?'}, Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwcmFiaGF0In0.x6Q_lg7sFtv4aZwzOiW3THlwhIfT7yzeR_ODO67Uj5Q', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.28.2', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': '8532bdd6-6f76-44ee-b8fe-a640f211a966', 'host': '0.0.0.0:5001', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '77'}, Status: 200, Response Time: 2.0824 seconds
+2024-09-09 10:26:00,127 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 10:26:01,843 - api_logger - INFO - Result generated...
+2024-09-09 10:26:01,844 - api_logger - INFO - Endpoint: /extract, Body: {'query': 'What cardiovascular adverse reactions are commonly seen with the use of amiodarone?'}, Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwcmFiaGF0In0.x6Q_lg7sFtv4aZwzOiW3THlwhIfT7yzeR_ODO67Uj5Q', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.28.2', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': 'dcf8aa98-065c-4da9-bf8b-d98429987c4c', 'host': '0.0.0.0:5001', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '102'}, Status: 200, Response Time: 1.7242 seconds
+2024-09-09 10:27:06,859 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 10:27:08,499 - api_logger - INFO - Result generated...
+2024-09-09 10:27:08,515 - api_logger - ERROR - malformed node or string: <_ast.Name object at 0x7fe01a57a730>
+Traceback (most recent call last):
+  File "app.py", line 442, in generate_question
+    formatted_response = ast.literal_eval(str(response))
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 99, in literal_eval
+    return _convert(node_or_string)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 88, in _convert
+    return dict(zip(map(_convert, node.keys),
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 98, in _convert
+    return _convert_signed_num(node)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 75, in _convert_signed_num
+    return _convert_num(node)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 66, in _convert_num
+    _raise_malformed_node(node)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 63, in _raise_malformed_node
+    raise ValueError(f'malformed node or string: {node!r}')
+ValueError: malformed node or string: <_ast.Name object at 0x7fe01a57a730>
+2024-09-09 10:27:08,520 - api_logger - INFO - Endpoint: /extract, Body: {'query': 'How commonly are PVCs seen on a routine ECG'}, Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwcmFiaGF0In0.x6Q_lg7sFtv4aZwzOiW3THlwhIfT7yzeR_ODO67Uj5Q', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.28.2', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': '7d72bffc-067d-463c-8dd7-98d785fbedf3', 'host': '0.0.0.0:5001', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '62'}, Status: 200, Response Time: 1.6644 seconds
+2024-09-09 10:27:14,133 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 10:27:15,683 - api_logger - INFO - Result generated...
+2024-09-09 10:27:15,684 - api_logger - ERROR - malformed node or string: <_ast.Name object at 0x7fe01ae40e80>
+Traceback (most recent call last):
+  File "app.py", line 442, in generate_question
+    formatted_response = ast.literal_eval(str(response))
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 99, in literal_eval
+    return _convert(node_or_string)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 88, in _convert
+    return dict(zip(map(_convert, node.keys),
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 98, in _convert
+    return _convert_signed_num(node)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 75, in _convert_signed_num
+    return _convert_num(node)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 66, in _convert_num
+    _raise_malformed_node(node)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 63, in _raise_malformed_node
+    raise ValueError(f'malformed node or string: {node!r}')
+ValueError: malformed node or string: <_ast.Name object at 0x7fe01ae40e80>
+2024-09-09 10:27:15,684 - api_logger - INFO - Endpoint: /extract, Body: {'query': 'How commonly are PVCs seen on a routine ECG'}, Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwcmFiaGF0In0.x6Q_lg7sFtv4aZwzOiW3THlwhIfT7yzeR_ODO67Uj5Q', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.28.2', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': 'c2dbe3a0-327e-4e58-86f0-d035442d9782', 'host': '0.0.0.0:5001', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '62'}, Status: 200, Response Time: 1.5529 seconds
+2024-09-09 10:27:17,004 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 10:27:18,380 - api_logger - INFO - Result generated...
+2024-09-09 10:27:18,380 - api_logger - INFO - Endpoint: /extract, Body: {'query': 'How commonly are PVCs seen on a routine ECG'}, Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwcmFiaGF0In0.x6Q_lg7sFtv4aZwzOiW3THlwhIfT7yzeR_ODO67Uj5Q', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.28.2', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': '299826a5-63dd-4666-a638-037e95f06490', 'host': '0.0.0.0:5001', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '62'}, Status: 200, Response Time: 1.3785 seconds
+2024-09-09 10:27:35,623 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 10:27:37,171 - api_logger - INFO - Result generated...
+2024-09-09 10:27:37,172 - api_logger - ERROR - malformed node or string: <_ast.Name object at 0x7fe01beef670>
+Traceback (most recent call last):
+  File "app.py", line 442, in generate_question
+    formatted_response = ast.literal_eval(str(response))
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 99, in literal_eval
+    return _convert(node_or_string)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 88, in _convert
+    return dict(zip(map(_convert, node.keys),
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 98, in _convert
+    return _convert_signed_num(node)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 75, in _convert_signed_num
+    return _convert_num(node)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 66, in _convert_num
+    _raise_malformed_node(node)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 63, in _raise_malformed_node
+    raise ValueError(f'malformed node or string: {node!r}')
+ValueError: malformed node or string: <_ast.Name object at 0x7fe01beef670>
+2024-09-09 10:27:37,172 - api_logger - INFO - Endpoint: /extract, Body: {'query': 'How commonly are PVCs seen on a routine ECG'}, Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwcmFiaGF0In0.x6Q_lg7sFtv4aZwzOiW3THlwhIfT7yzeR_ODO67Uj5Q', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.28.2', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': '42515ac5-7960-45c8-bce9-c9043e600b1e', 'host': '0.0.0.0:5001', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '62'}, Status: 200, Response Time: 1.5510 seconds
+2024-09-09 10:27:37,924 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 10:27:39,294 - api_logger - INFO - Result generated...
+2024-09-09 10:27:39,295 - api_logger - INFO - Endpoint: /extract, Body: {'query': 'How commonly are PVCs seen on a routine ECG'}, Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwcmFiaGF0In0.x6Q_lg7sFtv4aZwzOiW3THlwhIfT7yzeR_ODO67Uj5Q', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.28.2', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': 'f2264e8d-33a9-4eae-905c-52557244ce30', 'host': '0.0.0.0:5001', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '62'}, Status: 200, Response Time: 1.3728 seconds
+2024-09-09 10:29:34,204 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 10:29:35,559 - api_logger - INFO - Result generated...
+2024-09-09 10:29:35,560 - api_logger - INFO - Endpoint: /extract, Body: {'query': 'Which beta blockers should I use in a patient with heart failure and bad LV function?'}, Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwcmFiaGF0In0.x6Q_lg7sFtv4aZwzOiW3THlwhIfT7yzeR_ODO67Uj5Q', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.28.2', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': 'ec1dcc3f-5e4b-4bc2-af0a-4e57dc66aab7', 'host': '0.0.0.0:5001', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '104'}, Status: 200, Response Time: 1.3604 seconds
+2024-09-09 10:30:22,008 - api_logger - ERROR - There was an error st.session_state has no attribute "prompt". Did you forget to initialize it? More info: https://docs.streamlit.io/develop/concepts/architecture/session-state#initialization
+2024-09-09 10:30:27,894 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 10:30:29,271 - api_logger - INFO - Result generated...
+2024-09-09 10:32:54,371 - api_logger - ERROR - There was an error st.session_state has no attribute "prompt". Did you forget to initialize it? More info: https://docs.streamlit.io/develop/concepts/architecture/session-state#initialization
+2024-09-09 10:32:57,083 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 10:32:58,878 - api_logger - INFO - Result generated...
+2024-09-09 10:33:22,145 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 10:33:23,606 - api_logger - INFO - Result generated...
+2024-09-09 10:33:23,607 - api_logger - INFO - Endpoint: /extract, Body: {'query': 'How many drops of ofloxacin are needed for otitis externa?'}, Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwcmFiaGF0In0.x6Q_lg7sFtv4aZwzOiW3THlwhIfT7yzeR_ODO67Uj5Q', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.28.2', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': '8bf5a04a-b240-4201-9a9e-45731c8a8382', 'host': '0.0.0.0:5001', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '77'}, Status: 200, Response Time: 1.7616 seconds
+2024-09-09 10:50:51,319 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 10:50:53,178 - api_logger - INFO - Result generated...
+2024-09-09 10:50:53,180 - api_logger - INFO - Endpoint: /extract, Body: {'query': 'What is the recommended dose of acetaminophen for adults?'}, Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwcmFiaGF0In0.x6Q_lg7sFtv4aZwzOiW3THlwhIfT7yzeR_ODO67Uj5Q', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.28.2', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': 'a9669449-00a5-4190-9116-69e826ef0b44', 'host': '0.0.0.0:5001', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '76'}, Status: 200, Response Time: 1.8709 seconds
+2024-09-09 10:51:42,757 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 10:51:44,165 - api_logger - INFO - Result generated...
+2024-09-09 10:51:44,166 - api_logger - INFO - Endpoint: /extract, Body: {'query': 'What are the side effects of using ibuprofen long-term?'}, Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwcmFiaGF0In0.x6Q_lg7sFtv4aZwzOiW3THlwhIfT7yzeR_ODO67Uj5Q', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.28.2', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': 'b0b7cedc-0afe-48f9-9aaf-8c06cc1cae9b', 'host': '0.0.0.0:5001', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '74'}, Status: 200, Response Time: 1.4132 seconds
+2024-09-09 10:52:08,621 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 10:52:09,962 - api_logger - INFO - Result generated...
+2024-09-09 10:52:09,962 - api_logger - INFO - Endpoint: /extract, Body: {'query': 'What warnings should I be aware of when prescribing prednisone?'}, Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwcmFiaGF0In0.x6Q_lg7sFtv4aZwzOiW3THlwhIfT7yzeR_ODO67Uj5Q', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.28.2', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': 'ecd7a2e1-a1ae-4159-bccc-9f40062dff87', 'host': '0.0.0.0:5001', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '82'}, Status: 200, Response Time: 1.3434 seconds
+2024-09-09 10:52:36,599 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 10:52:38,334 - api_logger - INFO - Result generated...
+2024-09-09 10:52:38,335 - api_logger - INFO - Endpoint: /extract, Body: {'query': 'How should I use metformin for the management of type 2 diabetes?'}, Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwcmFiaGF0In0.x6Q_lg7sFtv4aZwzOiW3THlwhIfT7yzeR_ODO67Uj5Q', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.28.2', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': 'd5a43854-2638-4364-9f74-8a8649f8b10d', 'host': '0.0.0.0:5001', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '84'}, Status: 200, Response Time: 1.7376 seconds
+2024-09-09 10:53:12,156 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 10:53:13,506 - api_logger - INFO - Result generated...
+2024-09-09 10:53:13,507 - api_logger - INFO - Endpoint: /extract, Body: {'query': 'What is pneumonia?'}, Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwcmFiaGF0In0.x6Q_lg7sFtv4aZwzOiW3THlwhIfT7yzeR_ODO67Uj5Q', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.28.2', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': '31a7caf3-9d95-4936-b257-4894896da510', 'host': '0.0.0.0:5001', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '38'}, Status: 200, Response Time: 1.3529 seconds
+2024-09-09 10:53:32,680 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 10:53:34,142 - api_logger - INFO - Result generated...
+2024-09-09 10:53:34,143 - api_logger - INFO - Endpoint: /extract, Body: {'query': 'What are the clinical features of appendicitis?'}, Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwcmFiaGF0In0.x6Q_lg7sFtv4aZwzOiW3THlwhIfT7yzeR_ODO67Uj5Q', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.28.2', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': 'b1aa51f2-341d-49a0-b3ee-16ce297c8548', 'host': '0.0.0.0:5001', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '67'}, Status: 200, Response Time: 1.4645 seconds
+2024-09-09 10:53:57,962 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 10:53:59,389 - api_logger - INFO - Result generated...
+2024-09-09 10:53:59,389 - api_logger - INFO - Endpoint: /extract, Body: {'query': "How is Crohn's disease diagnosed?"}, Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwcmFiaGF0In0.x6Q_lg7sFtv4aZwzOiW3THlwhIfT7yzeR_ODO67Uj5Q', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.28.2', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': '8a3c97b1-2578-4df3-aaf3-15683641cbb8', 'host': '0.0.0.0:5001', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '53'}, Status: 200, Response Time: 1.4331 seconds
+2024-09-09 10:54:19,338 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 10:54:20,736 - api_logger - INFO - Result generated...
+2024-09-09 10:54:20,737 - api_logger - INFO - Endpoint: /extract, Body: {'query': 'What are the treatment options for acute bronchitis?'}, Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwcmFiaGF0In0.x6Q_lg7sFtv4aZwzOiW3THlwhIfT7yzeR_ODO67Uj5Q', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.28.2', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': '8b8b49d5-522d-47eb-8709-9b547206b66c', 'host': '0.0.0.0:5001', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '72'}, Status: 200, Response Time: 1.4007 seconds
+2024-09-09 10:54:37,071 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 10:54:38,404 - api_logger - INFO - Result generated...
+2024-09-09 10:54:38,404 - api_logger - INFO - Endpoint: /extract, Body: {'query': 'What is the appropriate dosing of insulin for a newly diagnosed diabetic patient?'}, Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwcmFiaGF0In0.x6Q_lg7sFtv4aZwzOiW3THlwhIfT7yzeR_ODO67Uj5Q', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.28.2', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': '0f6b4843-3703-4581-8b2f-a3ef6d039c3e', 'host': '0.0.0.0:5001', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '101'}, Status: 200, Response Time: 1.3363 seconds
+2024-09-09 10:54:56,185 - api_logger - ERROR - Failed to read request body: Expecting ',' delimiter: line 2 column 76 (char 77), Response Time: 0.0001 seconds
+2024-09-09 10:55:03,501 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 10:55:04,903 - api_logger - INFO - Result generated...
+2024-09-09 10:55:04,904 - api_logger - INFO - Endpoint: /extract, Body: {'query': 'What are the potential side effects of taking atorvastatin?'}, Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwcmFiaGF0In0.x6Q_lg7sFtv4aZwzOiW3THlwhIfT7yzeR_ODO67Uj5Q', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.28.2', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': 'e928ff14-bec2-4f3e-83bc-7625e7aa273a', 'host': '0.0.0.0:5001', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '79'}, Status: 200, Response Time: 1.4046 seconds
+2024-09-09 10:55:26,480 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 10:55:27,773 - api_logger - INFO - Result generated...
+2024-09-09 10:55:27,774 - api_logger - INFO - Endpoint: /extract, Body: {'query': 'What warnings are associated with the use of lithium in bipolar disorder?'}, Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwcmFiaGF0In0.x6Q_lg7sFtv4aZwzOiW3THlwhIfT7yzeR_ODO67Uj5Q', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.28.2', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': 'b8f5a67e-fc83-4d34-a4fe-3034da957041', 'host': '0.0.0.0:5001', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '93'}, Status: 200, Response Time: 1.2975 seconds
+2024-09-09 10:55:45,805 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 10:55:47,465 - api_logger - INFO - Result generated...
+2024-09-09 10:55:47,466 - api_logger - INFO - Endpoint: /extract, Body: {'query': 'How is omeprazole used in the treatment of GERD?'}, Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwcmFiaGF0In0.x6Q_lg7sFtv4aZwzOiW3THlwhIfT7yzeR_ODO67Uj5Q', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.28.2', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': 'dc91a0e6-8d84-4612-b89d-2cf09bee12f8', 'host': '0.0.0.0:5001', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '68'}, Status: 200, Response Time: 1.6623 seconds
+2024-09-09 10:56:10,417 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 10:56:12,042 - api_logger - INFO - Result generated...
+2024-09-09 10:56:12,043 - api_logger - INFO - Endpoint: /extract, Body: {'query': 'What is the definition of chronic obstructive pulmonary disease (COPD)?'}, Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwcmFiaGF0In0.x6Q_lg7sFtv4aZwzOiW3THlwhIfT7yzeR_ODO67Uj5Q', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.28.2', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': 'd351cbbd-32e2-4f47-a80c-4616a85e569d', 'host': '0.0.0.0:5001', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '91'}, Status: 200, Response Time: 1.6279 seconds
+2024-09-09 10:56:31,400 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 10:56:32,762 - api_logger - INFO - Result generated...
+2024-09-09 10:56:32,763 - api_logger - INFO - Endpoint: /extract, Body: {'query': 'What are the clinical features of multiple sclerosis?'}, Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwcmFiaGF0In0.x6Q_lg7sFtv4aZwzOiW3THlwhIfT7yzeR_ODO67Uj5Q', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.28.2', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': '88ead997-5c5f-4415-b48b-d03ddc5b5aff', 'host': '0.0.0.0:5001', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '73'}, Status: 200, Response Time: 1.3698 seconds
+2024-09-09 10:56:50,025 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 10:56:51,488 - api_logger - INFO - Result generated...
+2024-09-09 10:56:51,489 - api_logger - INFO - Endpoint: /extract, Body: {'query': 'How is rheumatoid arthritis diagnosed?'}, Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwcmFiaGF0In0.x6Q_lg7sFtv4aZwzOiW3THlwhIfT7yzeR_ODO67Uj5Q', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.28.2', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': 'e7f0e24b-af4f-49b7-89dc-d099929d7a26', 'host': '0.0.0.0:5001', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '58'}, Status: 200, Response Time: 1.4658 seconds
+2024-09-09 10:57:05,539 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 10:57:07,321 - api_logger - INFO - Result generated...
+2024-09-09 10:57:07,321 - api_logger - ERROR - malformed node or string: <_ast.Name object at 0x7f99906031f0>
+Traceback (most recent call last):
+  File "app.py", line 442, in generate_question
+    formatted_response = ast.literal_eval(str(response))
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 99, in literal_eval
+    return _convert(node_or_string)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 88, in _convert
+    return dict(zip(map(_convert, node.keys),
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 98, in _convert
+    return _convert_signed_num(node)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 75, in _convert_signed_num
+    return _convert_num(node)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 66, in _convert_num
+    _raise_malformed_node(node)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 63, in _raise_malformed_node
+    raise ValueError(f'malformed node or string: {node!r}')
+ValueError: malformed node or string: <_ast.Name object at 0x7f99906031f0>
+2024-09-09 10:57:07,327 - api_logger - INFO - Endpoint: /extract, Body: {'query': 'What are the treatment options for hypertension?'}, Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwcmFiaGF0In0.x6Q_lg7sFtv4aZwzOiW3THlwhIfT7yzeR_ODO67Uj5Q', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.28.2', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': '8de67cd5-50cd-46bf-b426-cc425f273a42', 'host': '0.0.0.0:5001', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '68'}, Status: 200, Response Time: 1.7911 seconds
+2024-09-09 10:57:09,506 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 10:57:11,347 - api_logger - INFO - Result generated...
+2024-09-09 10:57:11,347 - api_logger - ERROR - malformed node or string: <_ast.Name object at 0x7f998ec27f70>
+Traceback (most recent call last):
+  File "app.py", line 442, in generate_question
+    formatted_response = ast.literal_eval(str(response))
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 99, in literal_eval
+    return _convert(node_or_string)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 88, in _convert
+    return dict(zip(map(_convert, node.keys),
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 98, in _convert
+    return _convert_signed_num(node)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 75, in _convert_signed_num
+    return _convert_num(node)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 66, in _convert_num
+    _raise_malformed_node(node)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 63, in _raise_malformed_node
+    raise ValueError(f'malformed node or string: {node!r}')
+ValueError: malformed node or string: <_ast.Name object at 0x7f998ec27f70>
+2024-09-09 10:57:11,348 - api_logger - INFO - Endpoint: /extract, Body: {'query': 'What are the treatment options for hypertension?'}, Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwcmFiaGF0In0.x6Q_lg7sFtv4aZwzOiW3THlwhIfT7yzeR_ODO67Uj5Q', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.28.2', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': 'a01f687c-0503-4089-8c7a-f88e89293aa1', 'host': '0.0.0.0:5001', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '68'}, Status: 200, Response Time: 1.8432 seconds
+2024-09-09 10:57:12,746 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 10:57:14,200 - api_logger - INFO - Result generated...
+2024-09-09 10:57:14,201 - api_logger - INFO - Endpoint: /extract, Body: {'query': 'What are the treatment options for hypertension?'}, Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwcmFiaGF0In0.x6Q_lg7sFtv4aZwzOiW3THlwhIfT7yzeR_ODO67Uj5Q', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.28.2', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': 'f39d3caa-379c-46f8-b788-7feba2a3fc92', 'host': '0.0.0.0:5001', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '68'}, Status: 200, Response Time: 1.4558 seconds
+2024-09-09 10:57:33,557 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 10:57:34,996 - api_logger - INFO - Result generated...
+2024-09-09 10:57:34,997 - api_logger - INFO - Endpoint: /extract, Body: {'query': 'What is the recommended dosage of furosemide in patients with heart failure?'}, Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwcmFiaGF0In0.x6Q_lg7sFtv4aZwzOiW3THlwhIfT7yzeR_ODO67Uj5Q', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.28.2', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': '9ddb25b4-1b48-4d0e-910f-ba4550dc5bb5', 'host': '0.0.0.0:5001', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '96'}, Status: 200, Response Time: 1.4453 seconds
+2024-09-09 10:57:55,320 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 10:57:56,757 - api_logger - INFO - Result generated...
+2024-09-09 10:57:56,760 - api_logger - INFO - Endpoint: /extract, Body: {'query': 'What are the side effects of using digoxin in patients with atrial fibrillation?'}, Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwcmFiaGF0In0.x6Q_lg7sFtv4aZwzOiW3THlwhIfT7yzeR_ODO67Uj5Q', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.28.2', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': '4fa0de7a-af1d-45b4-ba9d-85e5c60f1ead', 'host': '0.0.0.0:5001', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '100'}, Status: 200, Response Time: 1.4416 seconds
+2024-09-09 10:58:14,333 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 10:58:16,017 - api_logger - INFO - Result generated...
+2024-09-09 10:58:16,017 - api_logger - INFO - Endpoint: /extract, Body: {'query': 'What precautions should be taken when using valproate for seizure control?'}, Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwcmFiaGF0In0.x6Q_lg7sFtv4aZwzOiW3THlwhIfT7yzeR_ODO67Uj5Q', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.28.2', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': 'dd0d1643-b458-4e90-8cd7-c01eb55fd81b', 'host': '0.0.0.0:5001', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '94'}, Status: 200, Response Time: 1.6861 seconds
+2024-09-09 10:58:36,601 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 10:58:38,221 - api_logger - INFO - Result generated...
+2024-09-09 10:58:38,221 - api_logger - INFO - Endpoint: /extract, Body: {'query': 'How is albuterol used for acute asthma exacerbations?'}, Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwcmFiaGF0In0.x6Q_lg7sFtv4aZwzOiW3THlwhIfT7yzeR_ODO67Uj5Q', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.28.2', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': '3564a3a4-8267-489c-b4c1-2cb773c5e09a', 'host': '0.0.0.0:5001', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '73'}, Status: 200, Response Time: 1.6217 seconds
+2024-09-09 10:58:58,048 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 10:58:59,413 - api_logger - INFO - Result generated...
+2024-09-09 10:58:59,413 - api_logger - INFO - Endpoint: /extract, Body: {'query': 'What dosage of aspirin is prescribed for the prevention of cardiovascular events?'}, Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwcmFiaGF0In0.x6Q_lg7sFtv4aZwzOiW3THlwhIfT7yzeR_ODO67Uj5Q', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.28.2', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': '75e05f7f-76c2-4fc2-a8fa-e5b10e7fad76', 'host': '0.0.0.0:5001', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '101'}, Status: 200, Response Time: 1.3669 seconds
+2024-09-09 10:59:17,890 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 10:59:19,392 - api_logger - INFO - Result generated...
+2024-09-09 10:59:19,393 - api_logger - INFO - Endpoint: /extract, Body: {'query': 'What is the recommended treatment for streptococcal pharyngitis?'}, Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwcmFiaGF0In0.x6Q_lg7sFtv4aZwzOiW3THlwhIfT7yzeR_ODO67Uj5Q', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.28.2', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': '38d433c3-63d5-4880-bf61-21201810b0f0', 'host': '0.0.0.0:5001', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '84'}, Status: 200, Response Time: 1.5049 seconds
+2024-09-09 10:59:44,414 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 10:59:45,850 - api_logger - INFO - Result generated...
+2024-09-09 10:59:45,851 - api_logger - INFO - Endpoint: /extract, Body: {'query': 'What are the common side effects of gabapentin?'}, Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwcmFiaGF0In0.x6Q_lg7sFtv4aZwzOiW3THlwhIfT7yzeR_ODO67Uj5Q', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.28.2', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': 'c4b08ad7-ec72-46d9-a86d-d478f83bb78f', 'host': '0.0.0.0:5001', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '67'}, Status: 200, Response Time: 1.4382 seconds
+2024-09-09 11:00:03,732 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 11:00:05,388 - api_logger - INFO - Result generated...
+2024-09-09 11:00:05,389 - api_logger - ERROR - malformed node or string: <_ast.Name object at 0x7f998ebd59d0>
+Traceback (most recent call last):
+  File "app.py", line 442, in generate_question
+    formatted_response = ast.literal_eval(str(response))
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 99, in literal_eval
+    return _convert(node_or_string)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 88, in _convert
+    return dict(zip(map(_convert, node.keys),
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 98, in _convert
+    return _convert_signed_num(node)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 75, in _convert_signed_num
+    return _convert_num(node)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 66, in _convert_num
+    _raise_malformed_node(node)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 63, in _raise_malformed_node
+    raise ValueError(f'malformed node or string: {node!r}')
+ValueError: malformed node or string: <_ast.Name object at 0x7f998ebd59d0>
+2024-09-09 11:00:05,389 - api_logger - INFO - Endpoint: /extract, Body: {'query': 'How do I manage diabetic ketoacidosis in a patient with type 1 diabetes?'}, Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwcmFiaGF0In0.x6Q_lg7sFtv4aZwzOiW3THlwhIfT7yzeR_ODO67Uj5Q', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.28.2', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': '30ccee83-7f90-4e20-898a-007b9a1acf56', 'host': '0.0.0.0:5001', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '92'}, Status: 200, Response Time: 1.6622 seconds
+2024-09-09 11:00:07,442 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 11:00:09,084 - api_logger - INFO - Result generated...
+2024-09-09 11:00:09,085 - api_logger - ERROR - malformed node or string: <_ast.Name object at 0x7f998f5394f0>
+Traceback (most recent call last):
+  File "app.py", line 442, in generate_question
+    formatted_response = ast.literal_eval(str(response))
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 99, in literal_eval
+    return _convert(node_or_string)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 88, in _convert
+    return dict(zip(map(_convert, node.keys),
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 98, in _convert
+    return _convert_signed_num(node)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 75, in _convert_signed_num
+    return _convert_num(node)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 66, in _convert_num
+    _raise_malformed_node(node)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 63, in _raise_malformed_node
+    raise ValueError(f'malformed node or string: {node!r}')
+ValueError: malformed node or string: <_ast.Name object at 0x7f998f5394f0>
+2024-09-09 11:00:09,085 - api_logger - INFO - Endpoint: /extract, Body: {'query': 'How do I manage diabetic ketoacidosis in a patient with type 1 diabetes?'}, Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwcmFiaGF0In0.x6Q_lg7sFtv4aZwzOiW3THlwhIfT7yzeR_ODO67Uj5Q', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.28.2', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': '17099dd9-7a42-4a2f-ab18-70891519c8a0', 'host': '0.0.0.0:5001', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '92'}, Status: 200, Response Time: 1.6449 seconds
+2024-09-09 11:00:09,814 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 11:00:11,462 - api_logger - INFO - Result generated...
+2024-09-09 11:00:11,462 - api_logger - ERROR - malformed node or string: <_ast.Name object at 0x7f998f564190>
+Traceback (most recent call last):
+  File "app.py", line 442, in generate_question
+    formatted_response = ast.literal_eval(str(response))
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 99, in literal_eval
+    return _convert(node_or_string)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 88, in _convert
+    return dict(zip(map(_convert, node.keys),
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 98, in _convert
+    return _convert_signed_num(node)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 75, in _convert_signed_num
+    return _convert_num(node)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 66, in _convert_num
+    _raise_malformed_node(node)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 63, in _raise_malformed_node
+    raise ValueError(f'malformed node or string: {node!r}')
+ValueError: malformed node or string: <_ast.Name object at 0x7f998f564190>
+2024-09-09 11:00:11,463 - api_logger - INFO - Endpoint: /extract, Body: {'query': 'How do I manage diabetic ketoacidosis in a patient with type 1 diabetes?'}, Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwcmFiaGF0In0.x6Q_lg7sFtv4aZwzOiW3THlwhIfT7yzeR_ODO67Uj5Q', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.28.2', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': 'ea080c55-a98b-43a1-bf3e-92a61792874e', 'host': '0.0.0.0:5001', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '92'}, Status: 200, Response Time: 1.6504 seconds
+2024-09-09 11:00:12,146 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 11:00:14,214 - api_logger - INFO - Result generated...
+2024-09-09 11:00:14,215 - api_logger - ERROR - malformed node or string: <_ast.Name object at 0x7f998f55e3a0>
+Traceback (most recent call last):
+  File "app.py", line 442, in generate_question
+    formatted_response = ast.literal_eval(str(response))
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 99, in literal_eval
+    return _convert(node_or_string)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 88, in _convert
+    return dict(zip(map(_convert, node.keys),
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 98, in _convert
+    return _convert_signed_num(node)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 75, in _convert_signed_num
+    return _convert_num(node)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 66, in _convert_num
+    _raise_malformed_node(node)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 63, in _raise_malformed_node
+    raise ValueError(f'malformed node or string: {node!r}')
+ValueError: malformed node or string: <_ast.Name object at 0x7f998f55e3a0>
+2024-09-09 11:00:14,215 - api_logger - INFO - Endpoint: /extract, Body: {'query': 'How do I manage diabetic ketoacidosis in a patient with type 1 diabetes?'}, Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwcmFiaGF0In0.x6Q_lg7sFtv4aZwzOiW3THlwhIfT7yzeR_ODO67Uj5Q', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.28.2', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': '6b85fd4e-1b4b-4972-978b-afc04a2a65c6', 'host': '0.0.0.0:5001', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '92'}, Status: 200, Response Time: 2.0710 seconds
+2024-09-09 11:00:14,862 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 11:00:16,511 - api_logger - INFO - Result generated...
+2024-09-09 11:00:16,511 - api_logger - ERROR - malformed node or string: <_ast.Name object at 0x7f998f531940>
+Traceback (most recent call last):
+  File "app.py", line 442, in generate_question
+    formatted_response = ast.literal_eval(str(response))
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 99, in literal_eval
+    return _convert(node_or_string)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 88, in _convert
+    return dict(zip(map(_convert, node.keys),
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 98, in _convert
+    return _convert_signed_num(node)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 75, in _convert_signed_num
+    return _convert_num(node)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 66, in _convert_num
+    _raise_malformed_node(node)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 63, in _raise_malformed_node
+    raise ValueError(f'malformed node or string: {node!r}')
+ValueError: malformed node or string: <_ast.Name object at 0x7f998f531940>
+2024-09-09 11:00:16,515 - api_logger - INFO - Endpoint: /extract, Body: {'query': 'How do I manage diabetic ketoacidosis in a patient with type 1 diabetes?'}, Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwcmFiaGF0In0.x6Q_lg7sFtv4aZwzOiW3THlwhIfT7yzeR_ODO67Uj5Q', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.28.2', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': 'c1d59f7a-2196-4786-a7f0-8a20e1f14820', 'host': '0.0.0.0:5001', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '92'}, Status: 200, Response Time: 1.6545 seconds
+2024-09-09 11:00:17,363 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 11:00:19,027 - api_logger - INFO - Result generated...
+2024-09-09 11:00:19,027 - api_logger - ERROR - malformed node or string: <_ast.Name object at 0x7f998f536190>
+Traceback (most recent call last):
+  File "app.py", line 442, in generate_question
+    formatted_response = ast.literal_eval(str(response))
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 99, in literal_eval
+    return _convert(node_or_string)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 88, in _convert
+    return dict(zip(map(_convert, node.keys),
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 98, in _convert
+    return _convert_signed_num(node)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 75, in _convert_signed_num
+    return _convert_num(node)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 66, in _convert_num
+    _raise_malformed_node(node)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 63, in _raise_malformed_node
+    raise ValueError(f'malformed node or string: {node!r}')
+ValueError: malformed node or string: <_ast.Name object at 0x7f998f536190>
+2024-09-09 11:00:19,028 - api_logger - INFO - Endpoint: /extract, Body: {'query': 'How do I manage diabetic ketoacidosis in a patient with type 1 diabetes?'}, Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwcmFiaGF0In0.x6Q_lg7sFtv4aZwzOiW3THlwhIfT7yzeR_ODO67Uj5Q', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.28.2', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': '7f92f743-529c-45b3-b8fc-555082dc464b', 'host': '0.0.0.0:5001', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '92'}, Status: 200, Response Time: 1.6668 seconds
+2024-09-09 11:00:19,559 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 11:00:21,205 - api_logger - INFO - Result generated...
+2024-09-09 11:00:21,205 - api_logger - ERROR - malformed node or string: <_ast.Name object at 0x7f998f53fe80>
+Traceback (most recent call last):
+  File "app.py", line 442, in generate_question
+    formatted_response = ast.literal_eval(str(response))
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 99, in literal_eval
+    return _convert(node_or_string)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 88, in _convert
+    return dict(zip(map(_convert, node.keys),
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 98, in _convert
+    return _convert_signed_num(node)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 75, in _convert_signed_num
+    return _convert_num(node)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 66, in _convert_num
+    _raise_malformed_node(node)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 63, in _raise_malformed_node
+    raise ValueError(f'malformed node or string: {node!r}')
+ValueError: malformed node or string: <_ast.Name object at 0x7f998f53fe80>
+2024-09-09 11:00:21,207 - api_logger - INFO - Endpoint: /extract, Body: {'query': 'How do I manage diabetic ketoacidosis in a patient with type 1 diabetes?'}, Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwcmFiaGF0In0.x6Q_lg7sFtv4aZwzOiW3THlwhIfT7yzeR_ODO67Uj5Q', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.28.2', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': '1a92b51e-18ec-4f6d-874b-1fe0de6d7325', 'host': '0.0.0.0:5001', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '92'}, Status: 200, Response Time: 1.6501 seconds
+2024-09-09 11:00:33,262 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 11:00:34,921 - api_logger - INFO - Result generated...
+2024-09-09 11:00:34,921 - api_logger - INFO - Endpoint: /extract, Body: {'query': 'What are the contraindications for prescribing beta blockers?'}, Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwcmFiaGF0In0.x6Q_lg7sFtv4aZwzOiW3THlwhIfT7yzeR_ODO67Uj5Q', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.28.2', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': 'a735c0f0-0678-429f-8650-89aad2608fe1', 'host': '0.0.0.0:5001', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '81'}, Status: 200, Response Time: 1.6733 seconds
+2024-09-09 11:00:59,546 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 11:01:01,245 - api_logger - INFO - Result generated...
+2024-09-09 11:01:01,246 - api_logger - INFO - Endpoint: /extract, Body: {'query': 'Which antibiotics are recommended for treating urinary tract infections?'}, Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwcmFiaGF0In0.x6Q_lg7sFtv4aZwzOiW3THlwhIfT7yzeR_ODO67Uj5Q', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.28.2', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': 'd41bc4ff-6b22-4c07-b733-d08b8ea5c3df', 'host': '0.0.0.0:5001', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '92'}, Status: 200, Response Time: 1.7017 seconds
+2024-09-09 11:01:17,014 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 11:01:18,771 - api_logger - INFO - Result generated...
+2024-09-09 11:01:18,771 - api_logger - ERROR - malformed node or string: <_ast.Name object at 0x7f9990603760>
+Traceback (most recent call last):
+  File "app.py", line 442, in generate_question
+    formatted_response = ast.literal_eval(str(response))
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 99, in literal_eval
+    return _convert(node_or_string)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 88, in _convert
+    return dict(zip(map(_convert, node.keys),
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 98, in _convert
+    return _convert_signed_num(node)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 75, in _convert_signed_num
+    return _convert_num(node)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 66, in _convert_num
+    _raise_malformed_node(node)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 63, in _raise_malformed_node
+    raise ValueError(f'malformed node or string: {node!r}')
+ValueError: malformed node or string: <_ast.Name object at 0x7f9990603760>
+2024-09-09 11:01:18,772 - api_logger - INFO - Endpoint: /extract, Body: {'query': 'What are the clinical features of multiple sclerosis?'}, Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwcmFiaGF0In0.x6Q_lg7sFtv4aZwzOiW3THlwhIfT7yzeR_ODO67Uj5Q', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.28.2', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': 'eb318644-0273-4d9b-9122-8c3cd7d86d66', 'host': '0.0.0.0:5001', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '72'}, Status: 200, Response Time: 1.7596 seconds
+2024-09-09 11:01:20,953 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 11:01:22,519 - api_logger - INFO - Result generated...
+2024-09-09 11:01:22,519 - api_logger - ERROR - malformed node or string: <_ast.Name object at 0x7f998f53e6a0>
+Traceback (most recent call last):
+  File "app.py", line 442, in generate_question
+    formatted_response = ast.literal_eval(str(response))
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 99, in literal_eval
+    return _convert(node_or_string)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 88, in _convert
+    return dict(zip(map(_convert, node.keys),
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 98, in _convert
+    return _convert_signed_num(node)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 75, in _convert_signed_num
+    return _convert_num(node)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 66, in _convert_num
+    _raise_malformed_node(node)
+  File "/opt/anaconda3/lib/python3.8/ast.py", line 63, in _raise_malformed_node
+    raise ValueError(f'malformed node or string: {node!r}')
+ValueError: malformed node or string: <_ast.Name object at 0x7f998f53e6a0>
+2024-09-09 11:01:22,520 - api_logger - INFO - Endpoint: /extract, Body: {'query': 'What are the clinical features of multiple sclerosis?'}, Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwcmFiaGF0In0.x6Q_lg7sFtv4aZwzOiW3THlwhIfT7yzeR_ODO67Uj5Q', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.28.2', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': '09829e9e-429a-4a7c-94e5-cf0066fc6853', 'host': '0.0.0.0:5001', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '72'}, Status: 200, Response Time: 1.5731 seconds
+2024-09-09 11:01:23,252 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 11:01:24,666 - api_logger - INFO - Result generated...
+2024-09-09 11:01:24,667 - api_logger - INFO - Endpoint: /extract, Body: {'query': 'What are the clinical features of multiple sclerosis?'}, Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwcmFiaGF0In0.x6Q_lg7sFtv4aZwzOiW3THlwhIfT7yzeR_ODO67Uj5Q', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.28.2', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': 'fce2e77f-8d23-41a1-80b7-b12dca042fe6', 'host': '0.0.0.0:5001', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '72'}, Status: 200, Response Time: 1.4164 seconds
+2024-09-09 11:01:55,569 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 11:01:56,992 - api_logger - INFO - Result generated...
+2024-09-09 11:01:56,993 - api_logger - INFO - Endpoint: /extract, Body: {'query': 'What is the dose of losartan for hypertension?'}, Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwcmFiaGF0In0.x6Q_lg7sFtv4aZwzOiW3THlwhIfT7yzeR_ODO67Uj5Q', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.28.2', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': '402a15c2-120a-4f58-b02a-cce4c94d1335', 'host': '0.0.0.0:5001', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '65'}, Status: 200, Response Time: 1.4289 seconds
+2024-09-09 11:02:23,755 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 11:02:25,316 - api_logger - INFO - Result generated...
+2024-09-09 11:02:25,317 - api_logger - INFO - Endpoint: /extract, Body: {'query': 'How do I treat gastroesophageal reflux disease (GERD) in adults?'}, Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwcmFiaGF0In0.x6Q_lg7sFtv4aZwzOiW3THlwhIfT7yzeR_ODO67Uj5Q', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.28.2', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': '273ce718-9328-4154-902c-9b586a746b08', 'host': '0.0.0.0:5001', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '83'}, Status: 200, Response Time: 1.5689 seconds
+2024-09-09 11:02:45,066 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 11:02:46,484 - api_logger - INFO - Result generated...
+2024-09-09 11:02:46,485 - api_logger - INFO - Endpoint: /extract, Body: {'query': 'What are the most common side effects of fluoxetine?'}, Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwcmFiaGF0In0.x6Q_lg7sFtv4aZwzOiW3THlwhIfT7yzeR_ODO67Uj5Q', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.28.2', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': '08662817-474a-4747-b353-1a843bd62af9', 'host': '0.0.0.0:5001', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '72'}, Status: 200, Response Time: 1.4207 seconds
+2024-09-09 12:08:58,897 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 12:09:01,121 - api_logger - INFO - Result generated...
+2024-09-09 12:09:01,123 - api_logger - INFO - Endpoint: /extract, Body: {'query': 'What are the most common side effects of fluoxetine?'}, Headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwcmFiaGF0In0.x6Q_lg7sFtv4aZwzOiW3THlwhIfT7yzeR_ODO67Uj5Q', 'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.28.2', 'accept': '*/*', 'cache-control': 'no-cache', 'postman-token': '32186c10-8625-4bdd-a860-088f613ad8c8', 'host': '0.0.0.0:8000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '72'}, Status: 200, Response Time: 2.5242 seconds
+2024-09-09 12:47:50,002 - api_logger - ERROR - There was an error st.session_state has no attribute "prompt". Did you forget to initialize it? More info: https://docs.streamlit.io/develop/concepts/architecture/session-state#initialization
+2024-09-09 12:48:02,316 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 12:48:02,318 - api_logger - INFO - Error occured in ambiguity check => status_code: None, body: The client must be instantiated be either passing in token or setting CO_API_KEY
+2024-09-09 12:48:02,323 - api_logger - ERROR - There was an error st.session_state has no attribute "response". Did you forget to initialize it? More info: https://docs.streamlit.io/develop/concepts/architecture/session-state#initialization
+2024-09-09 12:51:28,495 - api_logger - ERROR - There was an error st.session_state has no attribute "prompt". Did you forget to initialize it? More info: https://docs.streamlit.io/develop/concepts/architecture/session-state#initialization
+2024-09-09 12:51:32,261 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 12:51:32,262 - api_logger - INFO - Error occured in ambiguity check => status_code: None, body: The client must be instantiated be either passing in token or setting CO_API_KEY
+2024-09-09 12:51:32,266 - api_logger - ERROR - There was an error st.session_state has no attribute "response". Did you forget to initialize it? More info: https://docs.streamlit.io/develop/concepts/architecture/session-state#initialization
+2024-09-09 12:56:26,512 - api_logger - ERROR - There was an error st.session_state has no attribute "prompt". Did you forget to initialize it? More info: https://docs.streamlit.io/develop/concepts/architecture/session-state#initialization
+2024-09-09 12:56:29,130 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 12:56:29,132 - api_logger - INFO - Error occured in ambiguity check => status_code: None, body: The client must be instantiated be either passing in token or setting CO_API_KEY
+2024-09-09 12:56:29,138 - api_logger - ERROR - There was an error st.session_state has no attribute "response". Did you forget to initialize it? More info: https://docs.streamlit.io/develop/concepts/architecture/session-state#initialization
+2024-09-09 12:58:15,291 - api_logger - ERROR - There was an error st.session_state has no attribute "prompt". Did you forget to initialize it? More info: https://docs.streamlit.io/develop/concepts/architecture/session-state#initialization
+2024-09-09 12:58:17,803 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 12:58:17,805 - api_logger - INFO - Error occured in ambiguity check => status_code: None, body: The client must be instantiated be either passing in token or setting CO_API_KEY
+2024-09-09 12:58:17,810 - api_logger - ERROR - There was an error st.session_state has no attribute "response". Did you forget to initialize it? More info: https://docs.streamlit.io/develop/concepts/architecture/session-state#initialization
+2024-09-09 12:58:41,381 - api_logger - ERROR - There was an error st.session_state has no attribute "prompt". Did you forget to initialize it? More info: https://docs.streamlit.io/develop/concepts/architecture/session-state#initialization
+2024-09-09 12:58:44,053 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 12:58:45,519 - api_logger - INFO - Result generated...
+2024-09-09 13:28:56,945 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 13:28:58,902 - api_logger - INFO - Result generated...
+2024-09-09 13:31:57,936 - api_logger - ERROR - There was an error st.session_state has no attribute "prompt". Did you forget to initialize it? More info: https://docs.streamlit.io/develop/concepts/architecture/session-state#initialization
+2024-09-09 13:32:00,386 - api_logger - INFO - Initializing variables from .env files
+2024-09-09 13:32:01,849 - api_logger - INFO - Result generated...
