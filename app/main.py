@@ -123,17 +123,14 @@ class Generate():
 
         output_format = """
         {
-            "question_type": "Drugs" or "Clinical query",
-            "Intent": "Specific intent based on the above categories",
-            "Drug name": "Extracted drug name, if applicable, else null",
-            "Disease name": "Extracted disease name, if applicable, else null"
+            "is_valid": "dtype is String `True` if valid or `False` is not valid, keep the values as it is"
+            "question_type": "Drugs" or "Clinical query", dtype is String or None,
+            "intent": "Specific intent based on the above categories", dtype is String or None,
+            "drug_name": ["list of Extracted drug names from the query, if present in the query"] else put value as None, dtype is List or None,
+            "disease_name": ["list of Extracted disease names from the query, if present in the query" else put value as None, dtype is List or None,
         }
         """
-        irrelevant_output = """
-        {
-            "question_type": "Irrelevant"
-        }
-        """
+
         prompt = f"""
         You are an intelligent assistant designed to assist clinicians, doctors, and medical practitioners by identifying the intent behind their questions. 
         Your name is Clara. Your task is to classify the question into one of two categories: "Drugs" or "Clinical query." 
@@ -144,17 +141,19 @@ class Generate():
             Side-effect
             Warning
             Usage
+            Diesease/Indication
 
         ##For "Clinical query," potential intents include:
             Definition (e.g., "What is Pneumonia?")
+            Disease (e.g., "Pneumonia")
             Clinical features (e.g., "Details about the disease, symptoms, advanced stages")
             Diagnosis (e.g., "How is Pneumonia diagnosed?")
             Treatment (e.g., "What are the treatment options for Pneumonia?")
 
+        ##A query can contain multiple drugs and or diseases. In such cases ensure you mention those in a list, in the given output template
         ##Always Ensure the output is a valid JSON 
-        ##If the question does not pertain to either "Drugs" or "Clinical query," or if it is outside the scope of these categories, return the output in following valid JSON with "question_type" as key only:
-        {irrelevant_output}
-        ##Else Output the result strictly in the following JSON format:
+        ##If the question does not relates to either "Drugs" or "Clinical query," or if it is outside the scope of these categories, then 'is_valid' key will be "False" else it will be "True", keep the values as in String format as mentioned.
+        ##Output the result strictly in the following JSON format:
         {output_format}
         ##Ensure that the response is only relevant to the identified categories, and always adhere to the specified JSON format.
         ##For the below user question perform the task as described above

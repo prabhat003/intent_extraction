@@ -8,6 +8,7 @@ import logging
 import re
 import ast
 import cohere
+import requests
 # import streamlit as st
 from logger import logger
 from main import GetConfig, Generate
@@ -343,7 +344,7 @@ def extract_between_curly_braces(input_str):
     return '{'+result+'}'
 
 
-def get_results(query):
+def generate_cohere_response(query):
 
     try:
         vars = GetConfig()
@@ -368,6 +369,49 @@ def get_results(query):
 
     except Exception as e:
         logger.info("Error occured in ambiguity check => "+str(e))
+
+
+def generate_mistral_response(prompt, model="mistral", url="http://localhost:11434/api/generate"):
+    """
+    Send a POST request to the API to generate a response based on the prompt.
+
+    Args:
+        prompt (str): The prompt or question to send to the model.
+        model (str): The model to use for generating the response (default is 'mistral-nemo').
+        url (str): The URL of the API endpoint (default is 'http://localhost:11434/api/generate').
+
+    Returns:
+        dict: The JSON response from the API or an error message.
+    """
+    payload = {
+        "model": model,
+        "prompt": prompt,
+        "stream": False
+    }
+    headers = {
+        'Content-Type': 'application/json'
+    }
+
+    try:
+        # Make the POST request
+        response = requests.post(url, headers=headers, data=json.dumps(payload))
+        
+        # Raise an error if the response status code is not 200 (OK)
+        response.raise_for_status()
+        
+        # Parse the JSON response
+        return response.json()
+
+    except requests.exceptions.HTTPError as http_err:
+        return {"error": f"HTTP error occurred: {http_err}"}
+    except requests.exceptions.ConnectionError as conn_err:
+        return {"error": f"Connection error occurred: {conn_err}"}
+    except requests.exceptions.Timeout as timeout_err:
+        return {"error": f"Timeout error occurred: {timeout_err}"}
+    except requests.exceptions.RequestException as req_err:
+        return {"error": f"An error occurred: {req_err}"}
+    except json.JSONDecodeError as json_err:
+        return {"error": f"JSON decoding error: {json_err}"}
 
 
 @app.post("/register")
@@ -438,7 +482,9 @@ async def generate_question(data: QuestionRequest2, current_user: dict = Depends
 
         # Run functions in parallel
         # response = await run_in_executor(get_results, data)
-        response = get_results(data)
+        response = generate_cohere_response(data)
+        # To generate using mistral-nemo
+        # response = generate_mistral_response(data.query)
         formatted_response = ast.literal_eval(str(response))
         return {
                 "query": data.query,
